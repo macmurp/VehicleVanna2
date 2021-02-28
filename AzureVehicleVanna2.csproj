@@ -5,6 +5,11 @@
     <UserSecretsId>22a6858e-3e5f-4336-a356-9a8f2b00b711</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="VehicleVannaLocalTest2\**" />
+    <EmbeddedResource Remove="VehicleVannaLocalTest2\**" />
+    <None Remove="VehicleVannaLocalTest2\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="4.0.4" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
